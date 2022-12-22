@@ -57,7 +57,7 @@ router.delete('/delete/:id',async(req,res)=>{
         res.status(200).json(err.message)
     }
 })
-module.exports=router
+
 
 
 //get each product 
@@ -91,7 +91,7 @@ router.put('/edit/:id',async(req,res)=>{
         res.status(200).json(err.message)
     }
 })
-module.exports=router
+
 
 //add image to product
 
